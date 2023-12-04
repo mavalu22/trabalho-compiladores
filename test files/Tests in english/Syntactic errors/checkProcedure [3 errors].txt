@@ -1,0 +1,21 @@
+// Checks that procedures/functions were declared correctly
+Programa test1
+
+Procedimento p1(
+Inicio
+Fim
+
+Procedimento p3()
+Inicio
+Fim
+
+Procedimento p4)
+Inicio
+Fim
+
+Procedimento ()
+Inicio
+Fim
+
+Inicio
+Fim

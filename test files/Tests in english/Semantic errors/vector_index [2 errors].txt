@@ -1,0 +1,19 @@
+// Finding arrays accessed with a nonexistent index
+Programa test1
+Constante vet : vetor[1..3] de real;
+
+Funcao fillVet(v: vetor[1..3] de real)
+Inicio
+     v[1] := 1.1;
+     v[2] := 2.2;
+     v[3] := 3.1;
+     v[4] := 9.0;
+Fim
+
+Inicio
+     fillVet(vet);
+     escreva(vet[1]);
+     escreva(vet[2]);
+     escreva(vet[3]);
+     escreva(vet[4]);
+Fim

@@ -1,0 +1,6 @@
+// Find variables declared with the same name
+Programa test1
+Variavel a : inteiro; a : real; b : booleano, b : caracter;
+
+Inicio
+Fim

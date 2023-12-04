@@ -1,0 +1,12 @@
+// Encontrar um "pare" (break) ou "continua" (continue) sem um "para" (for) ou "while" (enquanto)
+Programa test2
+
+Funcao Simula()
+Inicio
+   continua;
+Fim
+
+Inicio
+   pare;
+   Simula();
+Fim

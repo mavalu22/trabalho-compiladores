@@ -1,0 +1,12 @@
+// Finding a "stop" (pare) or "continue" (continua) without a "for" (para) or "while" (enquanto)
+Programa test2
+
+Funcao Simula()
+Inicio
+   continua;
+Fim
+
+Inicio
+   pare;
+   Simula();
+Fim

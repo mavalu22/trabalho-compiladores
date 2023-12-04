@@ -1,0 +1,14 @@
+// Find initialized but not finalized blocks
+Programa test1
+Variavel a : inteiro;
+
+Procedimento p1():
+Inicio
+
+Fim
+
+Procedimento p2():
+Inicio
+
+Inicio
+   a := 10;

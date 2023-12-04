@@ -1,0 +1,9 @@
+// Encontrar linhas sem ponto e virgula  com exceção das: nomeiam programa, variáveis/constantes, declaram procedimento, iniciam ou terminam bloco
+Programa test1
+Variavel a : inteiro;
+
+Inicio
+   a := 10
+   a := 20;
+   a := 30
+Fim

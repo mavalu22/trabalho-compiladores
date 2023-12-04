@@ -1,0 +1,30 @@
+// Finding assignments or comparisons to variables/constants that do not match their declared type
+Programa test1
+Variavel a : inteiro; b : real; c : booleano, d : caracter, e : caracteres;
+
+Funcao testaProc(a : caracter, b : inteiro, z : caracteres)
+Inicio
+     a = “a”;
+     a = “aaa”;
+     b = 10;
+     b = 10.0;
+     z = “aaa”; 
+     z = 10;
+Fim
+
+Inicio
+a := 10;
+a := 11.1;
+b := 11.1;
+b := 10;
+c := verdadeiro;
+c := 5;
+d := “t”;
+d := “testee”;
+e := “teste”;
+e := “z”;
+e := 80;
+TestaProc(“a”, 5, “aaa”);
+Fim
+
+
